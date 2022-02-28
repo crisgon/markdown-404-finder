@@ -1,0 +1,28 @@
+{
+  "name": "markdown-404-finder",
+  "version": "1.0.0",
+  "description": "Lib para encontrar links em arquivos markdown e indicar qual o status de cada link",
+  "main": "./cli.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "markdown",
+    "url"
+  ],
+  "bugs": "https://github.com/crisgon",
+  "bin": {
+    "markdown-404-finder": "./cli.js"
+  },
+  "author": "Cristiano Gonçalves",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
