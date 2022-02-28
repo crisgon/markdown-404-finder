@@ -11,11 +11,16 @@
     "markdown",
     "url"
   ],
-  "bugs": "https://github.com/crisgon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisgon/markdown-404-finder.git"
+  },
+  "bugs": "https://github.com/crisgon/markdown-404-finder/issues",
+  "homepage": "https://github.com/crisgon/markdown-404-finder",
   "bin": {
     "markdown-404-finder": "./cli.js"
   },
-  "author": "Cristiano Gonçalves",
+  "author": "Cristiano Gonçalves  ",
   "license": "ISC",
   "preferGlobal": true,
   "dependencies": {
